@@ -1,0 +1,41 @@
+
+
+body{
+
+    background-color: rgb(118, 108, 108);
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.sliderContainer{
+    width: 50%;
+}
+
+.slider{
+
+    appearance: none;
+
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgb(39, 157, 186) 50%,
+        rgb(62, 55, 55)  50%
+    );
+    border-radius: 10px;
+} 
+
+h1{
+ font-size: 15px;
+
+}
+
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
